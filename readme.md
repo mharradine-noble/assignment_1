@@ -26,4 +26,21 @@ The header has the logo name, company logo and the navigation bar with pages tit
         </nav>
     </header>
 ```
-### 
+### Footer
+The footer contains social media links, primary email address and the copyright information for the website. 
+
+```html
+    <footer>
+        <div class="social-media">
+            <i class="fa-brands fa-stack-overflow"></i>
+            <i class="fa-brands fa-github"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-x-twitter"></i>
+            <i class="fa-brands fa-square-instagram"></i>
+        </div>
+        <div class="contact">
+            <p class="email">miranda@mharradine-noble.com</p>
+            <p class="copyright"> &copy; 2025 mharradine-noble</p>
+        </div>
+    </footer>
+```
