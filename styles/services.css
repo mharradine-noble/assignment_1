@@ -1,0 +1,24 @@
+main {
+    display: flex;
+    justify-content: center;
+    padding: 20x;
+    flex-wrap: wrap ;
+}
+
+article {
+    background-color: var(--tertiary-colour);
+    border-radius: 15px;
+    overflow: hidden;
+    text-align: center;
+    margin: 15px
+}
+
+article div a {
+    text-decoration: none;
+    color: black   
+}
+
+article div img {
+    width: 400px;
+    height: 200px;
+}

@@ -35,6 +35,14 @@ nav {
 nav a{
     text-decoration: none;
     color: black;
+    transition-property: width;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+    transition-delay: 0s;
+}
+
+nav a:hover {
+    width: 50px;
 }
 
 footer {
@@ -47,7 +55,7 @@ footer {
     text-align: center;
     padding: 16px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     font-size: 18px;
 }
 
@@ -68,19 +76,15 @@ footer {
 @media screen and (min-width: 576px) {
     nav a {
         font-size: 25px;
+        width: 60%;
+        margin-left: 5%;
+        margin-right: 5%;
     }
 
     .social-media a i {
     width: 60%;
-    margin-left: 50%;
-    margin-right: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
     font-size: 30px
 }
-
- 
-
-}
-
-@media screen and (min-width: 768px) {
-    
 }

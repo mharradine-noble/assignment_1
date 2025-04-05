@@ -1,0 +1,9 @@
+form {
+    display: grid;
+    max-width: 400px;
+    box-align: center; 
+}
+
+input [type=text] {
+    border: none;
+}

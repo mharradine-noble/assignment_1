@@ -4,8 +4,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/contact.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
 <body>
-    
+    <header>
+        <div class="logo">
+            <img src="">
+            <p>
+                <span class="company-name">m harradine-noble</span>
+            </p>
+        </div>
+        <nav>
+            <a href="./home.html">Home</a>
+            &#x2022
+            <a href="./services.html">Services</a>
+            &#x2022
+            <a href="./portfolio.html">Portfolio</a>
+            &#x2022
+            <a href="./about.html">About Me</a>
+            &#x2022
+            <a href="#"><b>Contact</b></a>
+        </nav>
+    </header>
+    <main>
+        <form>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br><br>
+            <label for="enquiry-type">Type of Enguiry:</label><br>
+            <select name="enquiry-type" if="type">
+                <option value=""></option>
+                <option value="coding">Coding Service</option>
+                <option value="mentoring">Mentoring</option>
+                <option value="Question">Question</option>
+            </select><br><br>
+            <label for="textbox">Description:</label><br>
+            <textarea id="textbox" name="textbox" rows="4" cols="50"></textarea><br><br>
+            <input type="submit" value="Submit">
+        </form>
+    </main>
+    <footer>
+        <div class="social-media">
+            <a href="https://stackoverflow.com/users/30114976/mharradine-noble" target="_blank"><i class="fa-brands fa-stack-overflow"></i></a>
+            <a href="https://github.com/mharradine-noble" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/miranda-harradine-noble-4505a4359/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://x.com/mharradinenoble" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="https://www.instagram.com/mharradinenoble/" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
+        </div>
+        <div class="contact">
+            <p class="email">miranda@mharradine-noble.com</p>
+            <p class="copyright"> &copy; 2025 mharradine-noble</p>
+        </div>
+    </footer>
 </body>
 </html>
