@@ -35,14 +35,6 @@ nav {
 nav a{
     text-decoration: none;
     color: black;
-    transition-property: width;
-    transition-duration: 2s;
-    transition-timing-function: linear;
-    transition-delay: 0s;
-}
-
-nav a:hover {
-    width: 50px;
 }
 
 footer {
@@ -70,7 +62,7 @@ footer {
 
 .copyright {
     text-align: right;
-    font-size: 13px 
+    font-size: 20px 
 }
 
 @media screen and (min-width: 576px) {

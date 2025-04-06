@@ -1,9 +1,7 @@
 form {
     display: grid;
+    justify-content: center;
     max-width: 400px;
-    box-align: center; 
-}
-
-input [type=text] {
-    border: none;
+    margin-left: auto;
+    margin-right: auto;
 }

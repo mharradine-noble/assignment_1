@@ -7,7 +7,7 @@ main {
 
 article {
     background-color: var(--tertiary-colour);
-    border-radius: 15px;
+    border-radius: 100px;
     overflow: hidden;
     text-align: center;
     margin: 15px
@@ -21,4 +21,20 @@ article div a {
 article div img {
     width: 400px;
     height: 200px;
+}
+
+
+@keyframes article {
+    0% {background-color: var(--tertiary-colour);}
+    25% {background-color: var(--primary-colour);}
+    50% {background-color: var(--secondary-colour);}
+    75% {background-color: var(--primary-colour);}
+    100% {background-color: var(--tertiary-colour);}
+}
+
+article {
+    animation-name: article;
+    animation-duration: 3s;
+    animation-direction: normal;
+
 }
